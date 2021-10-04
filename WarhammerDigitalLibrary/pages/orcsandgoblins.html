@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scale=no">
+        <title>Warhammer Digital Library</title>
+        <link rel="icon" href="https://1000logos.net/wp-content/uploads/2020/09/Warhammer-logo.png">
+        <!--CSS-->
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap" rel="stylesheet"> 
+    </head>
+    <body class="orcBody">
+        <header>
+            <img src="../img/banner.png" class="banner" alt="banner">
+              <!-- Navigation -->
+  <nav>
+    <div class='container'>
+      <object type='image/svg+xml' data='https://1000logos.net/wp-content/uploads/2020/09/Warhammer-logo.png'></object>
+      <div>
+        <span class='menu-button'>Menu</span>
+        <span class='login-button'>Login</span>
+        <a href="../index.html" class="home-button" id="homeLink">Home</a>
+      </div>
+    </div>
+  </nav>
+  <!-- Nav Menu -->
+  <div class='nav-menu hide' id="nav-dropdown">
+    <div class='container'>
+      <ul>
+        <li>Fantasy Armies:</li>
+        <li><a href="orcsandgoblins.html">Orcs & Goblins</a></li>
+        <li><a href="vampcounts.html">Vampire Counts</a></li>
+        <li><a href="tombkings.html">Tomb Kings</a></li>
+        <li><a href="dwarves.html">Dwarves</a></li>
+        <li><a href="skaven.html">Skaven</a></li>
+        <li><a href="highelves.html">High Elves</a></li>
+        <li><a href="darkelves.html">Dark Elves</a></li>
+        <li><a href="woodelves.html">Wood Elves</a></li>
+        <li><a href="empire.html">The Empire</a></li>
+        <li><a href="bretonnia.html">Bretonnia</a></li>
+        <li><a href="chaos.html">Chaos</a></li>
+      </ul>
+      <ul>
+        <li>About Warhammer:</li>
+        <li><a href="rules.html">Game Rules</a></li>
+        <li><a href="history.html">History & Editions</a></li>
+        <li><a href="gw.html">Games Workshop</a></li>
+        <li><a href="other.html">Other Warhammer Games</a></li>
+      </ul>
+        <ul>
+        <li>Contact:</li>
+        <li><a href="https://twitter.com/WarComTeam?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a></li>
+        <li><a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FGWWarhammerAgeofSigmar%2F">Facebook</a></li>
+        <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjPltjV-MryAhVhmeAKHRMgBFIQFnoECAMQAQ&url=https%3A%2F%2Fwww.instagram.com%2Fwarhammerofficial%2F%3Fhl%3Den&usg=AOvVaw1oWrxhR8xmQeu86eDyODVN">Instagram</a></li>
+        <li><a href="mailto: custserv@gwplc.com"   target="_blank">Email</a></li>
+      </ul>
+      <img src="../img/hammer.jpg" id="hammer">
+    </div>
+  </div>
+
+  <!-- Login Form -->
+  <div class='login-form'>
+    <div class='container'>
+      <form>
+        <h4>Username</h4>
+        <input class='username' />
+        <h4>Password</h4>
+        <input type='password' />
+        <input class='sign-in-button' type='submit' value='Sign In' />
+      </form>
+    </div>
+  </div>
+        </header>
+        <main id="main" class="orcBody">
+            <h1 id="mainTitle">Orcs & Goblins</h1>
+            <img src="../img/grimgor.gif" id="grimgor">
+            <p>When a greenskin horde descends
+                upon the land it leaves little in its wake
+                save devastation and ruin. They raid
+                ceaselessly, carrying war and barbarism
+                to every corner of the world under the
+                resounding roar of their Waaagh!.
+                Time and again, Orc and Goblin armies
+                arise without warning, their direction
+                and intent dangerously fickle and
+                unpredictable, but with one surety –
+                that nowhere is safe from their attacks
+                for long.
+                These loose confederations of
+                squabbling tribes are commanded by
+                an especially powerful and ambitious
+                Warboss, and amount to raucous
+                mixes of greenskins and other violentminded creatures.</p>
+                <hr>
+                <div id="selector">
+                  <h3>Select a unit type below for more information about their in-game stats and background!</h3>
+                    <select id="unit-dropdown">
+                        <option value="default">Unit Type</option>
+                        <option value="lords">Lords & Heroes</option>
+                        <option value="core">Core Units</option>
+                        <option value="special">Special Units</option>
+                        <option value="rare">Rare Units</option>
+                    </select>
+                    <div id="lordPic" hidden>
+                        <h1>Unit Stats:</h1>
+                        <img src="../img/lordsheroesorcs.png">
+                        <h1>Famous Orc Lords:</h1>
+                        <h2>Grimgor Ironhide</h2>
+                        <img src="../img/grimgor.jpg" alt="Grimgor">
+                        <p>Even for a Black Orc, Grimgor's thirst for war was exceptional. If a single day went by without a battle, Grimgor was known to start camp-decimating arguments, his one good eye blazing with eagerness to find fault and start a good scrap. Two days without a battle and Grimgor would smite anything he could reach, save (perhaps) his fellow Black Orcs. No one knows for sure what would happen if three days without a battle ever occurred, but even scarred veterans tremble just to think of it. This unquenchable thirst for battle is a sign that marks out a Warboss for leadership, a sign that the Orc is favoured by Gork (or Mork). In a hulking Black Orc with unmatched fighting skills and ferocity it has marked out Grimgor for greatness; the prophet and harbinger of Gork (or Mork). </p>
+                        <h1>Wurrzag</h1>
+                        <img src="../img/wurzag.jpg" alt="Wurrzag">
+                        <p>Wurrzag is beholden to no tribe nor lord, only the whisperings of the Greenskin gods in his addled mind.
+
+                            Ever since Wurrzag Ud Ura Zahubu dragged the Bone Nose tribe up to greatness - after accidently turning their original Shaman into a Squiggly Beast - he has claimed to speak directly for Gork and Mork, da Great Green Godz. The Savage Orc Shaman has crossed the Southlands and headed deep into the Badlands, joining tribes and rekindling the spark of the Waaagh! in them that they may have lost. His words and presence can lift a tribe to greater things in the name of Gork (or perhaps Mork). In the Land of the Dead, Wurrzag joined the Spotted Skullz tribe, leading them to victory against the Undead legions and their animated statuary. There are many other examples of Wurrzag's interventions, and so his reputation has spread far and wide.
+                            
+                            Among most tribes, his arrival is seen as a blessing that Mork (or Gork, maybe) has chosen them for some special mission. Not all Warbosses are so welcoming, however. Some view Wurrzag with suspicion, reckoning he comes always on the eve of events set in motion already, taking the credit even though it was the Bosses that did all the zoggin’ work in the first place! They argue that a Waaagh! can happen and countless do without Wurrzag present to trigger them. Whatever the truth, Wurrzag certainly believes he was put on this mortal plane as a tool of the Green Godz, and when Orcs believe something, then fate has a habit of making it true... </p>
+                    </div>
+                    <div id="corePic" hidden>
+                        <h1>Unit Stats:</h1>
+                        <img src="../img/coreorcs.png">
+                        <h1>Examples:</h1>
+                        <h2>Orc Boyz</h2>
+                        <img src="../img/orcBoyz.jpg" alt="OrcBoyz" id="orcBoyz">
+                        <p>Orcs, often known as Orc Boyz or just "da Boyz", are the hard-fighting infantry found at the heart of most Greenskin tribes. Goblins are more prolific, but it is the Orcs that do the bulk of the bloody work in most battles. That is okay with all parties, as Orcs are a warrior race and there is nothing they like half as much as a good scrap. In fact, it is hard to get Orcs to stop fighting. They are an overly pugnacious lot and if no one else is around they will pummel each other just to keep their spirits up. Luckily, Orcs do not register pain as do other races. A typical green-skinned lout won't let a minor injury, such as a severed limb, keep him from fighting. Orcs are so tough and resilient that if the arm can be found and sewn back on (however crudely) it will heal quickly. Orcs naturally take their robust physique for granted and regard everyone else as weak, puny or "squishy". </p>
+                        <h2>Goblins</h2>
+                        <img src="../img/goblins.jpg" alt="goblins">
+                        <p>Goblins often live on the cast-offs of other races and frequently thrive in the shadows of their larger brawnier cousins, the Orcs. They are, in general, a miserable treacherous race of petty thieves and vicious cutthroats. Goblins can be found just about anywhere, but are often divided up between several distinct sub-species that are fairly unique in their culture or physiology than the more common Goblin.</p>
+                    </div>
+                    <div id="specialPic" hidden>
+                        <h1>Unit Stats:</h1>
+                        <img src="../img/specialorcs.png" alt="SpecialOrcs">
+                        <h1>Examples:</h1>
+                        <h2>Orc Boar Boys</h2>
+                        <img src="../img/boarboyz.jpg" alt="BoarBoys">
+                        <p>The mounts that these Orcs ride are an extremely stubborn and vicious breed of the more common Wild Boar, that have grown to such a size that they are almost as large as an Imperial warhorse, but considerably far more bulkier.</p>
+                        <h2>Black Orcs</h2>
+                        <img src="../img/blackOrcs.jpg" alt="BlackOrcs">
+                        <p>The Black Orcs are amongst the biggest, meanest, strongest, and most brutal of all the Greenskin races.
+
+                          Named after their darker shade of green, their thick black-coloured armour and their horrendously foul odour, the Black Orcs consider themselves the ultimate Greenskin warrior. These beasts are grim and singularly focused on war, an occupation that they take far more seriously than even others of their own kind. Equipped with some of the best weapons and armour in the tribe, these fierce fighters provide their race with a much more reliable source of elite, powerful fighters.</p>
+                    </div>
+                    <div id="rarePic" hidden>
+                        <h1>Unit Stats:</h1>
+                        <img src="../img/rareorcs.png">
+                        <h1>Examples:</h1>
+                        <h2>Giants</h2>
+                        <img src="../img/giant.jpg" alt="Giant">
+                        <p>Giants are a large, lumbering and highly unintelligent race of brutish nomads that roam the Warhammer World seeking battles and food both large and small. Descendants of the long-forgotten Skytitan civilisation, Giants are extremely few in numbers but they make up for this disadvantage with bone-crushing strength. To most Greenskins, a Giant is a bellowing, cursing display of raw might, ruthless aggression and mindless savagery -- traits that are highly respected and sought after within Greenskin society.</p>
+                        <h2>Squig Hoppers</h2>
+                        <img src="../img/squigHop.jpg" alt="SquigHoppers">
+                        <p>Squig Hoppers bound madly into battle, wreaking havoc on anything they collide with. Each hurtling squig has a cackling grot clinging to its back, flailing wildly at nearby enemies as he tries vainly to steer his weird steed.</p>
+                    </div>
+                    <hr>
+                    <h1>Game Book</h1>
+                    <img src="../img/orcsBook.jpg" alt="OrcBook">
+                    <p>Each army requires a gamebook to play the stats listed above are just an example of what you will find in each army book! they contatin info and stats to help you field your army as well as fun history and infromation about your selected faction.</p>
+                    <hr>
+                    <iframe id="orcVideo" src="https://www.youtube.com/watch?v=21lr7xMlaIc" title="Orcs and goblin's history" alt="OrcsVid" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+            </div>
+        </main>
+        <footer>
+            <h1>&copy; Justin Harvey 2021 and:</h1>
+            <img src="../img/gw.png" alt="gamesWorkshop" id="GW">
+        </footer>
+        <!--JavaScript - jQuery-->
+        <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script> 
+    
+      <script src='../js/script.js'></script> 
+    </body>
+    </html>

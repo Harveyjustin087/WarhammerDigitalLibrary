@@ -1,0 +1,258 @@
+/*-- Main Elements --*/
+html{
+    color:white;
+    text-shadow: -1px 0 black, 0 1px rgb(129, 12, 238), 1px 0 rgb(129, 12, 238), 0 -1px rgb(129, 12, 238);
+    background-color: orange;
+    font-family: 'Gowun Batang','Times New Roman', Times, serif;
+    background-image: url("../img/backgroundWar.jpg");
+    background-size: cover;
+}
+body{
+    width: 80%;
+    margin: 0 auto;
+    background-color: black;
+    border: 2% solid rgba(43, 1, 1, 0.863);
+    border-radius: 5%;
+}
+main {
+    background-color: black;
+}
+p, h1, h3, h2 {
+    padding-left: 1%;
+}
+header {
+    display: inline-block
+}
+footer {
+    border: 2px white;
+    color: black;
+    display: flex;
+    min-height: 7em;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+}
+/*-- Classes --*/
+.centered {
+    align-items: center;
+    text-align: center;
+}
+.orcBody {
+    background-color: darkgreen;
+}
+.vampBody {
+    background-color: blueviolet;
+}
+.tombKingsBody {
+    background-color: burlywood;
+}
+.unitTable {
+    border: 0.15em solid black;
+}
+    .unitTable tr,th,td {
+        border: 0.15em solid black;
+    }
+.banner {
+    width: 100%;
+    height: 25em;
+}
+.vampPic {
+    height: 50%;
+    width: 50%;
+}
+.image {
+    height: 10rem;
+    width: 15rem;;
+}
+.selected {
+    background-color: tomato;
+}
+.hidden {
+    display: none;
+}
+.show {
+    display: inline;
+}
+.welcome-message .bubble {
+    width: 10%;
+}
+/*-- IDs --*/
+#pictureBox {
+    max-height: 20em;
+    min-height: 20em;
+}
+#tombKings {
+    width: 100%;
+}
+#tKingsBook {
+    width: 40%;
+}
+#grimgor {
+    width: 100%;
+}
+#hammer {
+    height: 85%;
+}
+#ruleVideo {
+    height: 35em;
+    width: 50em;
+    align-items: center;
+    margin: 1em 10em 5em 15em;
+}
+#animateRider {
+    position: absolute;
+    display: block;
+    float: right;
+    margin-left: 50%;
+}
+#vampMoveGif {
+    display: block;
+}
+#vampCoach {
+    position: absolute;
+    float: right;
+    margin-left: 50%;
+}
+#thanks {
+    width: 100%;
+    height: 35%;
+    background-color: greenyellow;
+    columns: black;
+}
+a#homeLink{
+    color: white; text-decoration: none;
+}
+#selector {
+    text-align: center;
+}
+#orcBoyz {
+    width: 50%;
+}
+#mainTitle{
+    text-align: center;
+}
+#unit-dropdown {
+    width: 15em;
+    height: 3em;
+    background-color:rgb(10, 10, 179);
+    font-size: 1em;
+    font-family: 'Gowun Batang','Times New Roman', Times, serif;
+}
+#GW {
+    height: 85%;
+}
+#vampGif {
+    width: 100%;
+}
+#dwarvesGif {
+    width: 100%;
+}
+#dwarvesBody {
+    background-color: rgb(53, 123, 226);
+}
+/*-- Nav Bar --*/
+.nav {
+  background-color: rgb(243, 18, 18);
+  color: white; 
+}
+  nav .container {
+      background-color: rgb(243, 18, 18);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1% solid white; 
+}
+    nav .container object {
+      width: 5%;
+      padding: 1.5%; 
+    }
+    nav .container .login-button,
+    nav .container .menu-button,
+    nav .container .home-button {
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      padding: 1em 1.25em;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      cursor: pointer; 
+    }
+
+.nav-menu {
+  background-color: #db1010;
+  color: #EFEFEF;
+  display: flex;
+  justify-content: center; 
+}
+  .nav-menu .container {
+    padding: 2% 25% 2% 5%;
+    display: flex; 
+}
+    .nav-menu .container ul {
+      list-style: none; 
+    }
+      .nav-menu .container ul li {
+        padding: 0.25em 3em;
+        border: 0.1em solid white; 
+    }
+        .nav-menu .container ul li:first-child {
+          text-transform: uppercase;
+          color: #C3FF00;
+          letter-spacing: 0.05em; 
+        }
+            .nav-menu .container img{
+                float: right;
+                padding-left: 10%;
+            }
+
+.hide {
+  display: none; 
+}
+.centered {
+    text-align: center;
+    margin: 0 auto;
+}
+.container-log {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.login-form {
+  background-color: #535353;
+  padding: 1em 0 0;
+  color: #EFEFEF;
+  display: none; }
+  .login-form .container {
+    padding: 0 0.5em; }
+  .login-form h4 {
+    font-weight: 400; }
+  .login-form input {
+    width: calc(100% - 1em);
+    border: none;
+    height: 2em;
+    margin: 0.5em 0;
+    font-size: 1em;
+    padding: 0 0.5em; }
+  .login-form .sign-in-button {
+    background-color: #303030;
+    color: #fbff00;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-align: center;
+    width: 100%;
+    height: 2.5em;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer; }
+
+footer {
+    color: #EFEFEF;
+    background-color: #303030;
+    margin-top: 2em;
+    padding: 2em 0.5em;
+    text-align: center;
+}
